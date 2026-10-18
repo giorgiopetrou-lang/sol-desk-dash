@@ -1,5 +1,5 @@
 {
- "now": "2026-10-18 19:20:45 Berlin",
+ "now": "2026-10-18 19:22:49 Berlin",
  "vault": {
   "rpc_sol": 1.937428415,
   "rpc_err": null,
@@ -11,7 +11,7 @@
   "halt_reason": null,
   "halt_kill": false,
   "halt_day": false,
-  "last_skip": null
+  "last_skip": "multi_cand_exhausted:sit_out_15m:lp_elevated:rugcheck_name_level:397s:walked=4"
  },
  "positions": [],
  "flags": {
@@ -37,9 +37,9 @@
   }
  },
  "hb": {
-  "live_loop": 0.9,
-  "exit_cycle": 2.9,
-  "watchdog": 2.9
+  "live_loop": 3.4,
+  "exit_cycle": 0.4,
+  "watchdog": 2.4
  },
  "buy_size": 0.093124069,
  "realized": 0.004682269150117577,
@@ -396,33 +396,28 @@
   }
  ],
  "lp": {
-  "buy_ready_n": 13,
+  "buy_ready_n": 8,
   "buy_ready_syms": [
    "hi",
+   "CATSZN",
    "bwigitte",
    "SUPERCORE",
    "YILONGMA",
-   "MASSIVE",
-   "mucron",
    "MEGA",
-   "CAPE",
-   "1",
-   "Gold",
    "CyberAxe",
-   "VSWAP",
-   "Dip"
+   "VSWAP"
   ],
   "runners_n": 44,
-  "latest_n": 2342,
+  "latest_n": 2697,
   "scan_status": "up",
   "universe": "NORMAL",
-  "note": "routine read 2026-10-18 19:10 Berlin; scan loop pid 16143 up; latest n 2342 (19 of 23 endpoints ok); universe NORMAL; single rail elite_migrated (ELITE-DEEP-BOOK-GO absent); buy-ready 8->13 adds=['MASSIVE', 'CAPE', '1', 'Gold', 'VSWAP'] drops=[]; runners 47->44 (unique 43)",
-  "endpoints_ok": 19,
-  "endpoints_failed": 4,
-  "latest_age_s": 38.4,
-  "elite_age_s": 13.9,
+  "note": "routine read 2026-10-18 19:21 Berlin; scan loop pid 16143 up; latest n 2697 (5 of 5 endpoints ok); universe NORMAL; single rail elite_migrated (ELITE-DEEP-BOOK-GO absent); buy-ready 13->8 adds=['CATSZN'] drops=['MASSIVE', 'mucron', 'CAPE', '1', 'Gold', 'Dip']; runners 44->44 (unique 42)",
+  "endpoints_ok": 5,
+  "endpoints_failed": 0,
+  "latest_age_s": 53.8,
+  "elite_age_s": 12.8,
   "profile": "elite_migrated",
-  "ts": "20261018T1710Z"
+  "ts": "20261018T1721Z"
  },
  "tree": {
   "sha256": "7ed4e6afad852088317fb8b05ef70a2549b9376a9197d77002c4502445b325fa",
@@ -521,6 +516,12 @@
    "nav": 1.937428415,
    "chain": 1.937428415,
    "peak": 1.937428415
+  },
+  {
+   "ts": 1792344169.3819253,
+   "nav": 1.937428415,
+   "chain": 1.937428415,
+   "peak": 1.937428415
   }
  ],
  "dd": {
@@ -548,7 +549,7 @@
   ],
   [
    "liquidity_risk:live_pool_below_floor",
-   70
+   73
   ],
   [
    "quote_failed:other",
