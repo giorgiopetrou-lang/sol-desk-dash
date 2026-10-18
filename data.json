@@ -1,5 +1,5 @@
 {
- "now": "2026-10-18 19:08:24 Berlin",
+ "now": "2026-10-18 19:10:27 Berlin",
  "vault": {
   "rpc_sol": 1.937428415,
   "rpc_err": null,
@@ -11,7 +11,7 @@
   "halt_reason": null,
   "halt_kill": false,
   "halt_day": false,
-  "last_skip": "multi_cand_exhausted:stale_liq live_pool=2146.44<7000 sleeve=book recent_low:walked=4"
+  "last_skip": "sleeve_guard:sleeve_max_2_buys"
  },
  "positions": [],
  "flags": {
@@ -36,9 +36,9 @@
   }
  },
  "hb": {
-  "live_loop": 0.5,
-  "exit_cycle": 9.5,
-  "watchdog": 1.5
+  "live_loop": 4.9,
+  "exit_cycle": 6.9,
+  "watchdog": 1.9
  },
  "buy_size": 0.093124069,
  "realized": 0.004682269150117577,
@@ -395,28 +395,33 @@
   }
  ],
  "lp": {
-  "buy_ready_n": 8,
+  "buy_ready_n": 13,
   "buy_ready_syms": [
    "hi",
+   "bwigitte",
    "SUPERCORE",
    "YILONGMA",
-   "bwigitte",
+   "MASSIVE",
    "mucron",
    "MEGA",
+   "CAPE",
+   "1",
+   "Gold",
    "CyberAxe",
+   "VSWAP",
    "Dip"
   ],
-  "runners_n": 47,
-  "latest_n": 2608,
+  "runners_n": 44,
+  "latest_n": 2342,
   "scan_status": "up",
   "universe": "NORMAL",
-  "note": "routine read 2026-10-18 18:54 Berlin; scan loop pid 16143 up; latest n 2608 (21 of 25 endpoints ok); universe NORMAL; single rail elite_migrated (ELITE-DEEP-BOOK-GO absent); buy-ready 11->8 adds=['CyberAxe', 'Dip'] drops=['blocus', 'MASSIVE', 'CAPE', '1', 'VSWAP']; runners 48->47 (unique 42)",
-  "endpoints_ok": 21,
+  "note": "routine read 2026-10-18 19:10 Berlin; scan loop pid 16143 up; latest n 2342 (19 of 23 endpoints ok); universe NORMAL; single rail elite_migrated (ELITE-DEEP-BOOK-GO absent); buy-ready 8->13 adds=['MASSIVE', 'CAPE', '1', 'Gold', 'VSWAP'] drops=[]; runners 47->44 (unique 43)",
+  "endpoints_ok": 19,
   "endpoints_failed": 4,
-  "latest_age_s": 39.6,
-  "elite_age_s": 14.4,
+  "latest_age_s": 38.4,
+  "elite_age_s": 13.9,
   "profile": "elite_migrated",
-  "ts": "20261018T1654Z"
+  "ts": "20261018T1710Z"
  },
  "tree": {
   "sha256": "8d233d2bb5dd4d32a1463c7ef923e313497082bfd1466ccf30f9409005c46f35",
@@ -479,6 +484,12 @@
    "nav": 1.937428415,
    "chain": 1.937428415,
    "peak": 1.937428415
+  },
+  {
+   "ts": 1792343427.917909,
+   "nav": 1.937428415,
+   "chain": 1.937428415,
+   "peak": 1.937428415
   }
  ],
  "dd": {
@@ -498,15 +509,15 @@
  "refusals": [
   [
    "rugcheck_name_flag",
-   119
+   120
   ],
   [
    "liquidity_risk:live_pool_below_floor",
-   61
+   65
   ],
   [
    "top1_holder_extreme",
-   58
+   62
   ],
   [
    "quote_failed:other",
