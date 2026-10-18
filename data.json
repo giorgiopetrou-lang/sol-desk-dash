@@ -1,5 +1,5 @@
 {
- "now": "2026-10-18 19:02:13 Berlin",
+ "now": "2026-10-18 19:04:17 Berlin",
  "vault": {
   "rpc_sol": 1.937428415,
   "rpc_err": null,
@@ -11,7 +11,7 @@
   "halt_reason": null,
   "halt_kill": false,
   "halt_day": false,
-  "last_skip": "multi_cand_exhausted:stale_liq live_pool=151049.81 no_history floor=7000 sleeve=trader11:walked=4"
+  "last_skip": "multi_cand_exhausted:stale_liq live_pool=2201.11<7000 sleeve=trader11 recent_low:walked=4"
  },
  "positions": [],
  "flags": {
@@ -37,9 +37,9 @@
   }
  },
  "hb": {
-  "live_loop": 0.9,
-  "exit_cycle": 2.9,
-  "watchdog": 0.9
+  "live_loop": 1.5,
+  "exit_cycle": 0.5,
+  "watchdog": 1.5
  },
  "buy_size": 0.093124069,
  "realized": 0.004682269150117577,
@@ -462,6 +462,12 @@
    "nav": 1.937428415,
    "chain": 1.937428415,
    "peak": 1.937428415
+  },
+  {
+   "ts": 1792343057.523654,
+   "nav": 1.937428415,
+   "chain": 1.937428415,
+   "peak": 1.937428415
   }
  ],
  "dd": {
@@ -481,15 +487,15 @@
  "refusals": [
   [
    "rugcheck_name_flag",
-   115
+   116
+  ],
+  [
+   "liquidity_risk:live_pool_below_floor",
+   58
   ],
   [
    "top1_holder_extreme",
    58
-  ],
-  [
-   "liquidity_risk:live_pool_below_floor",
-   57
   ],
   [
    "quote_failed:other",
