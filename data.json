@@ -1,5 +1,5 @@
 {
- "now": "2026-10-18 18:53:59 Berlin",
+ "now": "2026-10-18 18:56:03 Berlin",
  "vault": {
   "rpc_sol": 1.937428415,
   "rpc_err": null,
@@ -11,7 +11,7 @@
   "halt_reason": null,
   "halt_kill": false,
   "halt_day": false,
-  "last_skip": "multi_cand_exhausted:stale_liq logged=379409.51 live_pool=2201.11<7000:walked=4"
+  "last_skip": "multi_cand_exhausted:lp_elevated:rugcheck_name_level:walked=4"
  },
  "positions": [],
  "flags": {
@@ -36,9 +36,9 @@
   }
  },
  "hb": {
-  "live_loop": 2.6,
-  "exit_cycle": 5.6,
-  "watchdog": 1.6
+  "live_loop": 10.4,
+  "exit_cycle": 3.4,
+  "watchdog": 1.4
  },
  "buy_size": 0.093124069,
  "realized": 0.004682269150117577,
@@ -395,31 +395,28 @@
   }
  ],
  "lp": {
-  "buy_ready_n": 11,
+  "buy_ready_n": 8,
   "buy_ready_syms": [
    "hi",
-   "blocus",
    "SUPERCORE",
    "YILONGMA",
    "bwigitte",
-   "MASSIVE",
    "mucron",
    "MEGA",
-   "CAPE",
-   "1",
-   "VSWAP"
+   "CyberAxe",
+   "Dip"
   ],
-  "runners_n": 48,
-  "latest_n": 2424,
+  "runners_n": 47,
+  "latest_n": 2608,
   "scan_status": "up",
   "universe": "NORMAL",
-  "note": "routine read 2026-10-18 18:41 Berlin; scan loop pid 16143 up; latest n 2424 (32 of 64 endpoints ok; merge kept_prior True new_n 607); universe NORMAL; single rail elite_migrated (ELITE-DEEP-BOOK-GO absent); buy-ready 9->11 adds=['hi', 'bwigitte', 'mucron', 'VSWAP'] drops=['TSI', 'koinu']; runners 37->48 (unique 44)",
-  "endpoints_ok": 32,
-  "endpoints_failed": 32,
-  "latest_age_s": 49.7,
-  "elite_age_s": 22.3,
+  "note": "routine read 2026-10-18 18:54 Berlin; scan loop pid 16143 up; latest n 2608 (21 of 25 endpoints ok); universe NORMAL; single rail elite_migrated (ELITE-DEEP-BOOK-GO absent); buy-ready 11->8 adds=['CyberAxe', 'Dip'] drops=['blocus', 'MASSIVE', 'CAPE', '1', 'VSWAP']; runners 48->47 (unique 42)",
+  "endpoints_ok": 21,
+  "endpoints_failed": 4,
+  "latest_age_s": 39.6,
+  "elite_age_s": 14.4,
   "profile": "elite_migrated",
-  "ts": "20261018T1641Z"
+  "ts": "20261018T1654Z"
  },
  "tree": {
   "sha256": "c202a734905500ee7691943d1dedc5671d2acebab4e521b67fa39d51d9787608",
@@ -437,6 +434,12 @@
   },
   {
    "ts": 1792342439.6410842,
+   "nav": 1.937428415,
+   "chain": 1.937428415,
+   "peak": 1.937428415
+  },
+  {
+   "ts": 1792342563.3751228,
    "nav": 1.937428415,
    "chain": 1.937428415,
    "peak": 1.937428415
@@ -459,15 +462,15 @@
  "refusals": [
   [
    "rugcheck_name_flag",
-   103
+   110
   ],
   [
    "top1_holder_extreme",
-   54
+   57
   ],
   [
    "liquidity_risk:live_pool_below_floor",
-   47
+   48
   ],
   [
    "quote_failed:other",
