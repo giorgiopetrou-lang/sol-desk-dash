@@ -1,5 +1,5 @@
 {
- "now": "2026-10-18 18:52:39 Berlin",
+ "now": "2026-10-18 18:53:59 Berlin",
  "vault": {
   "rpc_sol": 1.937428415,
   "rpc_err": null,
@@ -11,7 +11,7 @@
   "halt_reason": null,
   "halt_kill": false,
   "halt_day": false,
-  "last_skip": "multi_cand_exhausted:lp_elevated:rugcheck_name_level:walked=4"
+  "last_skip": "multi_cand_exhausted:stale_liq logged=379409.51 live_pool=2201.11<7000:walked=4"
  },
  "positions": [],
  "flags": {
@@ -36,9 +36,9 @@
   }
  },
  "hb": {
-  "live_loop": 5.7,
-  "exit_cycle": 1.7,
-  "watchdog": 1.7
+  "live_loop": 2.6,
+  "exit_cycle": 5.6,
+  "watchdog": 1.6
  },
  "buy_size": 0.093124069,
  "realized": 0.004682269150117577,
@@ -413,12 +413,65 @@
   "latest_n": 2424,
   "scan_status": "up",
   "universe": "NORMAL",
-  "note": "routine read 2026-10-18 18:41 Berlin; scan loop pid 16143 up; latest n 2424 (32 of 64 endpoints ok; merge kept_prior True new_n 607); universe NORMAL; single rail elite_migrated (ELITE-DEEP-BOOK-GO absent); buy-ready 9->11 adds=['hi', 'bwigitte', 'mucron', 'VSWAP'] drops=['TSI', 'koinu']; runners 37->48 (unique 44)"
+  "note": "routine read 2026-10-18 18:41 Berlin; scan loop pid 16143 up; latest n 2424 (32 of 64 endpoints ok; merge kept_prior True new_n 607); universe NORMAL; single rail elite_migrated (ELITE-DEEP-BOOK-GO absent); buy-ready 9->11 adds=['hi', 'bwigitte', 'mucron', 'VSWAP'] drops=['TSI', 'koinu']; runners 37->48 (unique 44)",
+  "endpoints_ok": 32,
+  "endpoints_failed": 32,
+  "latest_age_s": 49.7,
+  "elite_age_s": 22.3,
+  "profile": "elite_migrated",
+  "ts": "20261018T1641Z"
  },
  "tree": {
   "sha256": "c202a734905500ee7691943d1dedc5671d2acebab4e521b67fa39d51d9787608",
   "files": 499,
   "recorded_at": "2026-10-18 18:43:39 CEST",
-  "tree": "/workspace/sol-meme-live/packages/meme_live.t1386u-pct5-hotfix-r4b-staged"
- }
+  "version": "0.6.114",
+  "pkg": "meme_live.t1386u-pct5-hotfix-r4b-staged"
+ },
+ "history": [
+  {
+   "ts": 1792342434.7211013,
+   "nav": 1.937428415,
+   "chain": 1.937428415,
+   "peak": 1.937428415
+  },
+  {
+   "ts": 1792342439.6410842,
+   "nav": 1.937428415,
+   "chain": 1.937428415,
+   "peak": 1.937428415
+  }
+ ],
+ "dd": {
+  "kill": 0.3,
+  "peak": 1.937428415,
+  "nav": 1.937428415,
+  "dd": 0.0
+ },
+ "stats": {
+  "booked": 15,
+  "wins": 12,
+  "losses": 3,
+  "win_rate": 0.8,
+  "best": 0.003289676967757768,
+  "worst": -0.008936902
+ },
+ "refusals": [
+  [
+   "rugcheck_name_flag",
+   103
+  ],
+  [
+   "top1_holder_extreme",
+   54
+  ],
+  [
+   "liquidity_risk:live_pool_below_floor",
+   47
+  ],
+  [
+   "quote_failed:other",
+   3
+  ]
+ ]
 }
