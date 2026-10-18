@@ -1,5 +1,5 @@
 {
- "now": "2026-10-18 19:51:39 Berlin",
+ "now": "2026-10-18 19:53:42 Berlin",
  "vault": {
   "rpc_sol": 1.937428415,
   "rpc_err": null,
@@ -11,13 +11,12 @@
   "halt_reason": null,
   "halt_kill": false,
   "halt_day": false,
-  "last_skip": "multi_cand_exhausted:elite_quality:top1_holder_extreme:walked=4"
+  "last_skip": "multi_cand_exhausted:stale_liq logged=380882.32 live_pool=2591.76<7000:walked=4"
  },
  "positions": [],
  "flags": {
   "NO-SEND": {
-   "on": true,
-   "since": "2026-10-18 20:44"
+   "on": false
   },
   "DD-KILL": {
    "on": false
@@ -37,9 +36,9 @@
   }
  },
  "hb": {
-  "live_loop": 6.2,
-  "exit_cycle": 7.2,
-  "watchdog": 1.2
+  "live_loop": 8.7,
+  "exit_cycle": 4.7,
+  "watchdog": 1.7
  },
  "buy_size": 0.093124069,
  "realized": 0.004682269150117577,
@@ -396,26 +395,28 @@
   }
  ],
  "lp": {
-  "buy_ready_n": 6,
+  "buy_ready_n": 8,
   "buy_ready_syms": [
-   "hi",
    "CATSZN",
    "bwigitte",
    "SUPERCORE",
+   "MOMO",
    "MEGA",
-   "VSWAP"
+   "CyberAxe",
+   "VSWAP",
+   "Dip"
   ],
-  "runners_n": 39,
-  "latest_n": 2388,
+  "runners_n": 42,
+  "latest_n": 2614,
   "scan_status": "up",
   "universe": "NORMAL",
-  "note": "routine read 2026-10-18 19:33 Berlin; scan loop pid 16143 up; latest n 2388 (37 of 64 endpoints ok, kept prior rows); universe NORMAL; single rail elite_migrated (ELITE-DEEP-BOOK-GO absent); buy-ready 8->6 adds=[] drops=['YILONGMA', 'CyberAxe']; runners 44->39 (unique 37)",
-  "endpoints_ok": 37,
-  "endpoints_failed": 27,
-  "latest_age_s": 44.6,
-  "elite_age_s": 18.1,
+  "note": "routine read 2026-10-18 19:51 Berlin; scan loop pid 16143 up; latest n 2614 (19 of 23 endpoints ok, kept prior rows); universe NORMAL; single rail elite_migrated (ELITE-DEEP-BOOK-GO absent); buy-ready 6->8 adds=['MOMO', 'CyberAxe', 'Dip'] drops=['hi']; runners 39->42 (unique 38)",
+  "endpoints_ok": 19,
+  "endpoints_failed": 4,
+  "latest_age_s": 36.1,
+  "elite_age_s": 12.2,
   "profile": "elite_migrated",
-  "ts": "20261018T1733Z"
+  "ts": "20261018T1751Z"
  },
  "tree": {
   "sha256": "155e46579c77376e8b8a4d7a10103bf33a10f89bc5a1193f7fe7b4846e1f864d",
@@ -604,6 +605,12 @@
    "nav": 1.937428415,
    "chain": 1.937428415,
    "peak": 1.937428415
+  },
+  {
+   "ts": 1792346022.7451544,
+   "nav": 1.937428415,
+   "chain": 1.937428415,
+   "peak": 1.937428415
   }
  ],
  "dd": {
@@ -623,15 +630,15 @@
  "refusals": [
   [
    "rugcheck_name_flag",
-   178
+   180
   ],
   [
    "top1_holder_extreme",
-   99
+   102
   ],
   [
    "liquidity_risk:live_pool_below_floor",
-   95
+   94
   ],
   [
    "quote_failed:no_route",
@@ -639,7 +646,7 @@
   ],
   [
    "quote_failed:other",
-   3
+   2
   ]
  ]
 }
