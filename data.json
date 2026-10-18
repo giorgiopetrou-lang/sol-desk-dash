@@ -1,5 +1,5 @@
 {
- "now": "2026-10-18 19:49:35 Berlin",
+ "now": "2026-10-18 19:51:39 Berlin",
  "vault": {
   "rpc_sol": 1.937428415,
   "rpc_err": null,
@@ -37,9 +37,9 @@
   }
  },
  "hb": {
-  "live_loop": 1.8,
-  "exit_cycle": 9.8,
-  "watchdog": 1.8
+  "live_loop": 6.2,
+  "exit_cycle": 7.2,
+  "watchdog": 1.2
  },
  "buy_size": 0.093124069,
  "realized": 0.004682269150117577,
@@ -598,6 +598,12 @@
    "nav": 1.937428415,
    "chain": 1.937428415,
    "peak": 1.937428415
+  },
+  {
+   "ts": 1792345899.153151,
+   "nav": 1.937428415,
+   "chain": 1.937428415,
+   "peak": 1.937428415
   }
  ],
  "dd": {
@@ -617,15 +623,15 @@
  "refusals": [
   [
    "rugcheck_name_flag",
-   176
-  ],
-  [
-   "liquidity_risk:live_pool_below_floor",
-   96
+   178
   ],
   [
    "top1_holder_extreme",
-   96
+   99
+  ],
+  [
+   "liquidity_risk:live_pool_below_floor",
+   95
   ],
   [
    "quote_failed:no_route",
