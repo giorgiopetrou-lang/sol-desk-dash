@@ -1,5 +1,5 @@
 {
- "now": "2026-10-18 18:19:41 Berlin",
+ "now": "2026-10-18 18:21:44 Berlin",
  "vault": {
   "rpc_sol": 1.937428415,
   "rpc_err": null,
@@ -38,9 +38,9 @@
   }
  },
  "hb": {
-  "live_loop": 7.6,
-  "exit_cycle": 7.6,
-  "watchdog": 1.6
+  "live_loop": 4.0,
+  "exit_cycle": 5.0,
+  "watchdog": 1.0
  },
  "buy_size": 0.09687142075,
  "realized": 0.004682269150117577,
