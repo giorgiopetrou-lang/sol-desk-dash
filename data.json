@@ -1,5 +1,5 @@
 {
- "now": "2026-10-18 18:40:18 Berlin",
+ "now": "2026-10-18 18:42:21 Berlin",
  "vault": {
   "rpc_sol": 1.937428415,
   "rpc_err": null,
@@ -11,7 +11,7 @@
   "halt_reason": null,
   "halt_kill": false,
   "halt_day": false,
-  "last_skip": "multi_cand_exhausted:elite_quality:top1_holder_extreme:walked=4"
+  "last_skip": null
  },
  "positions": [],
  "flags": {
@@ -38,9 +38,9 @@
   }
  },
  "hb": {
-  "live_loop": 1.4,
-  "exit_cycle": 12.4,
-  "watchdog": 1.4
+  "live_loop": 1.6,
+  "exit_cycle": 9.6,
+  "watchdog": 1.6
  },
  "buy_size": 0.09687142075,
  "realized": 0.004682269150117577,
@@ -397,23 +397,25 @@
   }
  ],
  "lp": {
-  "buy_ready_n": 9,
+  "buy_ready_n": 11,
   "buy_ready_syms": [
+   "hi",
    "blocus",
    "SUPERCORE",
    "YILONGMA",
-   "TSI",
+   "bwigitte",
    "MASSIVE",
-   "koinu",
+   "mucron",
    "MEGA",
    "CAPE",
-   "1"
+   "1",
+   "VSWAP"
   ],
-  "runners_n": 37,
-  "latest_n": 2364,
+  "runners_n": 48,
+  "latest_n": 2424,
   "scan_status": "up",
   "universe": "NORMAL",
-  "note": "routine read 2026-10-18 18:17 Berlin; scan loop pid 16143 up; latest n 2364 (37 of 64 endpoints ok; merge kept_prior True new_n 578); universe NORMAL; single rail elite_migrated (ELITE-DEEP-BOOK-GO absent); buy-ready 6->9 adds=['blocus', 'MASSIVE', 'koinu', 'CAPE', '1'] drops=['mucron', 'VSWAP']; runners 42->37 (unique 36)"
+  "note": "routine read 2026-10-18 18:41 Berlin; scan loop pid 16143 up; latest n 2424 (32 of 64 endpoints ok; merge kept_prior True new_n 607); universe NORMAL; single rail elite_migrated (ELITE-DEEP-BOOK-GO absent); buy-ready 9->11 adds=['hi', 'bwigitte', 'mucron', 'VSWAP'] drops=['TSI', 'koinu']; runners 37->48 (unique 44)"
  },
  "tree": {
   "sha256": "96ff4a52f0552b92d9bc4aeb4e4d4108d38400085c08c1a9c16c02b06e7136c8",
