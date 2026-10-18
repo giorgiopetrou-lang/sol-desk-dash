@@ -1,5 +1,5 @@
 {
- "now": "2026-10-18 20:01:56 Berlin",
+ "now": "2026-10-18 20:04:00 Berlin",
  "vault": {
   "rpc_sol": 1.937428415,
   "rpc_err": null,
@@ -11,7 +11,7 @@
   "halt_reason": null,
   "halt_kill": false,
   "halt_day": false,
-  "last_skip": "multi_cand_exhausted:stale_liq logged=105709.60 live_pool=952.58<7000:walked=4"
+  "last_skip": "multi_cand_exhausted:stale_liq logged=381094.50 live_pool=1956.25<7000:walked=4"
  },
  "positions": [],
  "flags": {
@@ -36,9 +36,9 @@
   }
  },
  "hb": {
-  "live_loop": 1.0,
-  "exit_cycle": 12.0,
-  "watchdog": 1.0
+  "live_loop": 0.5,
+  "exit_cycle": 9.5,
+  "watchdog": 1.5
  },
  "buy_size": 0.093124069,
  "realized": 0.004682269150117577,
@@ -407,16 +407,16 @@
    "Dip"
   ],
   "runners_n": 42,
-  "latest_n": 2614,
+  "latest_n": 2361,
   "scan_status": "up",
   "universe": "NORMAL",
-  "note": "routine read 2026-10-18 19:51 Berlin; scan loop pid 16143 up; latest n 2614 (19 of 23 endpoints ok, kept prior rows); universe NORMAL; single rail elite_migrated (ELITE-DEEP-BOOK-GO absent); buy-ready 6->8 adds=['MOMO', 'CyberAxe', 'Dip'] drops=['hi']; runners 39->42 (unique 38)",
-  "endpoints_ok": 19,
-  "endpoints_failed": 4,
-  "latest_age_s": 36.1,
-  "elite_age_s": 12.2,
+  "note": "routine read 2026-10-18 20:02 Berlin; scan loop pid 16143 up; latest n 2361 (35 of 64 endpoints ok, kept prior rows); universe NORMAL; single rail elite_migrated (ELITE-DEEP-BOOK-GO absent); buy-ready 8->8 adds=[] drops=[]; runners 42->42 (unique 39)",
+  "endpoints_ok": 35,
+  "endpoints_failed": 29,
+  "latest_age_s": 26.1,
+  "elite_age_s": 26.3,
   "profile": "elite_migrated",
-  "ts": "20261018T1751Z"
+  "ts": "20261018T1802Z"
  },
  "tree": {
   "sha256": "155e46579c77376e8b8a4d7a10103bf33a10f89bc5a1193f7fe7b4846e1f864d",
@@ -635,6 +635,12 @@
    "nav": 1.937428415,
    "chain": 1.937428415,
    "peak": 1.937428415
+  },
+  {
+   "ts": 1792346640.4517536,
+   "nav": 1.937428415,
+   "chain": 1.937428415,
+   "peak": 1.937428415
   }
  ],
  "dd": {
@@ -654,11 +660,11 @@
  "refusals": [
   [
    "rugcheck_name_flag",
-   168
+   170
   ],
   [
    "liquidity_risk:live_pool_below_floor",
-   97
+   98
   ],
   [
    "top1_holder_extreme",
