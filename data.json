@@ -1,5 +1,5 @@
 {
- "now": "2026-10-18 18:46:28 Berlin",
+ "now": "2026-10-18 18:48:32 Berlin",
  "vault": {
   "rpc_sol": 1.937428415,
   "rpc_err": null,
@@ -11,7 +11,7 @@
   "halt_reason": null,
   "halt_kill": false,
   "halt_day": false,
-  "last_skip": "multi_cand_exhausted:sit_out_15m:lp_elevated:rugcheck_name_level:228s:walked=4"
+  "last_skip": null
  },
  "positions": [],
  "flags": {
@@ -38,9 +38,9 @@
   }
  },
  "hb": {
-  "live_loop": 0.9,
-  "exit_cycle": 4.9,
-  "watchdog": 1.9
+  "live_loop": 0.4,
+  "exit_cycle": 2.4,
+  "watchdog": 2.4
  },
  "buy_size": 0.093124069,
  "realized": 0.004682269150117577,
