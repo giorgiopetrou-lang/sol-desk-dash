@@ -1,5 +1,5 @@
 {
- "now": "2026-10-18 18:32:03 Berlin",
+ "now": "2026-10-18 18:34:07 Berlin",
  "vault": {
   "rpc_sol": 1.937428415,
   "rpc_err": null,
@@ -28,7 +28,7 @@
   },
   "LIVE-ARM": {
    "on": true,
-   "since": "2026-10-18 18:50",
+   "since": "2026-10-18 19:33",
    "note": "Status: ARMED"
   },
   "DESK-MODE": {
@@ -38,9 +38,9 @@
   }
  },
  "hb": {
-  "live_loop": 2.5,
-  "exit_cycle": 11.5,
-  "watchdog": 1.5
+  "live_loop": 9.1,
+  "exit_cycle": 9.1,
+  "watchdog": 1.1
  },
  "buy_size": 0.09687142075,
  "realized": 0.004682269150117577,
@@ -416,9 +416,9 @@
   "note": "routine read 2026-10-18 18:17 Berlin; scan loop pid 16143 up; latest n 2364 (37 of 64 endpoints ok; merge kept_prior True new_n 578); universe NORMAL; single rail elite_migrated (ELITE-DEEP-BOOK-GO absent); buy-ready 6->9 adds=['blocus', 'MASSIVE', 'koinu', 'CAPE', '1'] drops=['mucron', 'VSWAP']; runners 42->37 (unique 36)"
  },
  "tree": {
-  "sha256": "9b39c7ab069eced6fbfc7e97ab65fa41944a8b9897241f802490597dbad0f667",
-  "files": 494,
-  "recorded_at": "2026-10-18 17:50:19 CEST",
-  "tree": "/workspace/sol-meme-live/packages/meme_live.t1386u-pct5-hotfix-signerping-r3-staged"
+  "sha256": "96ff4a52f0552b92d9bc4aeb4e4d4108d38400085c08c1a9c16c02b06e7136c8",
+  "files": 497,
+  "recorded_at": "2026-10-18 18:33:42 CEST",
+  "tree": "/workspace/sol-meme-live/packages/meme_live.t1386u-pct5-hotfix-r4-staged"
  }
 }
