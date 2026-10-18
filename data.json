@@ -1,5 +1,5 @@
 {
- "now": "2026-10-18 18:58:06 Berlin",
+ "now": "2026-10-18 19:00:10 Berlin",
  "vault": {
   "rpc_sol": 1.937428415,
   "rpc_err": null,
@@ -11,7 +11,7 @@
   "halt_reason": null,
   "halt_kill": false,
   "halt_day": false,
-  "last_skip": "multi_cand_exhausted:sit_out_15m:elite_quality:top1_holder_extreme:357s:walked=4"
+  "last_skip": null
  },
  "positions": [],
  "flags": {
@@ -27,7 +27,7 @@
   },
   "LIVE-ARM": {
    "on": true,
-   "since": "2026-10-18 19:43",
+   "since": "2026-10-18 19:58",
    "note": "Status: ARMED"
   },
   "DESK-MODE": {
@@ -37,9 +37,9 @@
   }
  },
  "hb": {
-  "live_loop": 0.8,
-  "exit_cycle": 0.8,
-  "watchdog": 1.8
+  "live_loop": 2.2,
+  "exit_cycle": 2.2,
+  "watchdog": 1.2
  },
  "buy_size": 0.093124069,
  "realized": 0.004682269150117577,
@@ -420,11 +420,11 @@
   "ts": "20261018T1654Z"
  },
  "tree": {
-  "sha256": "c202a734905500ee7691943d1dedc5671d2acebab4e521b67fa39d51d9787608",
-  "files": 499,
-  "recorded_at": "2026-10-18 18:43:39 CEST",
-  "version": "0.6.114",
-  "pkg": "meme_live.t1386u-pct5-hotfix-r4b-staged"
+  "sha256": "8d233d2bb5dd4d32a1463c7ef923e313497082bfd1466ccf30f9409005c46f35",
+  "files": 511,
+  "recorded_at": "2026-10-18 18:58:52 CEST",
+  "version": "0.6.116",
+  "pkg": "meme_live.t1386u-pct5-r5b-elite-sniper-staged"
  },
  "history": [
   {
@@ -450,6 +450,12 @@
    "nav": 1.937428415,
    "chain": 1.937428415,
    "peak": 1.937428415
+  },
+  {
+   "ts": 1792342810.1993477,
+   "nav": 1.937428415,
+   "chain": 1.937428415,
+   "peak": 1.937428415
   }
  ],
  "dd": {
@@ -469,7 +475,7 @@
  "refusals": [
   [
    "rugcheck_name_flag",
-   113
+   115
   ],
   [
    "top1_holder_extreme",
@@ -477,7 +483,7 @@
   ],
   [
    "liquidity_risk:live_pool_below_floor",
-   51
+   53
   ],
   [
    "quote_failed:other",
